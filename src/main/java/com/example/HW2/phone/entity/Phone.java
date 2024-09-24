@@ -7,10 +7,9 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
+
 public class Phone {
     private Long phoneNumber;
     private String phoneName;
     private Long phonePrice;
-
-
 }

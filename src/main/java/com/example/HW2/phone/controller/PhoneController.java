@@ -38,5 +38,6 @@ public class PhoneController {
     public String deletePhone(@PathVariable Long phoneNumber) {
         phoneService.delete(phoneNumber);
         return "삭제되었습니다";
+
     }
 }

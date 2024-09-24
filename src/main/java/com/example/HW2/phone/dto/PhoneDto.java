@@ -11,7 +11,5 @@ public class PhoneDto {
     private Long phoneNumber;
     private String phoneName;
     private Long phonePrice;
-
-
 }
 
