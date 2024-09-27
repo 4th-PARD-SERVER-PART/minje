@@ -3,8 +3,8 @@
   두개의 목록 하나씩 올려보기
   url: http://localhost:8080/phone
 </div>
-  ![image](https://github.com/user-attachments/assets/fa887491-2a5a-4692-9a25-91b3dc1d8d2e)
-  ![image](https://github.com/user-attachments/assets/890e0018-e478-4928-9056-230d25dce4b7)
+![image](https://github.com/user-attachments/assets/fa887491-2a5a-4692-9a25-91b3dc1d8d2e)
+![image](https://github.com/user-attachments/assets/890e0018-e478-4928-9056-230d25dce4b7)
 
 <h1>Read</h1>
 <div>
