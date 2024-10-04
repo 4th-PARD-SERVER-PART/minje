@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/ed9019e8-4cfb-4cbd-8322-581e81da3238)<h1>Create</h1>
+<h1>Create</h1>
 <div>
   딥트러플머쉬룸더블버거 추가하기! <br>
   url: http://localhost:8080/burgerking
