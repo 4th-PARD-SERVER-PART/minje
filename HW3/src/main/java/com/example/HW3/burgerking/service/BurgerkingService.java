@@ -53,13 +53,17 @@ public class BurgerkingService {
         burgerkingRepository.deleteById(userId);
     }
 
-    public Burgerking findPriceAsc() {
-        Burgerking burgerking = burgerkingRepository.findAllByOrderByPriceAsc();
-        return burgerking;
+    public List<Burgerking> getAllProductsOrderedByPrice() {
+        return burgerkingRepository.findAllByOrderByPriceAsc();
     }
 
-    public Long findId(String name){
+    public Long findIdByName(String name){
         Burgerking burgerking = burgerkingRepository.findByName(name);
+        return burgerking.getUserId();
+    }
+
+    public Long findIdByPrice(String price){
+        Burgerking burgerking = burgerkingRepository.findByPrice(price);
         return burgerking.getUserId();
     }
 }

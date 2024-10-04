@@ -36,18 +36,23 @@ public class BurgerkingController {
         burgerkingService.update(userId, burgerkingDto);
     }
 
-    @DeleteMapping("/userId")
+    @DeleteMapping("/{userId}")
     public void delete(@PathVariable Long userId) {
         burgerkingService.delete(userId);
     }
 
     @GetMapping("/priceAsc")
-    public Burgerking findPriceAsc() {
-        return burgerkingService.findPriceAsc();
+    public List<Burgerking> getProducts() {
+        return burgerkingService.getAllProductsOrderedByPrice();
     }
-    @GetMapping("/{name}")
-    public ResponseEntity<Long> findId(@RequestParam String name){
-        Long responseValue = burgerkingService.findId(name);
+    @GetMapping("/userName")
+    public ResponseEntity<Long> findIdByName(@RequestParam String name){
+        Long responseValue = burgerkingService.findIdByName(name);
+        return new ResponseEntity<>(responseValue, HttpStatus.OK);
+    }
+    @GetMapping("/userPrice")
+    public ResponseEntity<Long> findIdByPrice(@RequestParam String price){
+        Long responseValue = burgerkingService.findIdByName(price);
         return new ResponseEntity<>(responseValue, HttpStatus.OK);
     }
 
