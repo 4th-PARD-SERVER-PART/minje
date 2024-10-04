@@ -1,12 +1,12 @@
-<h1>Create</h1>
+![image](https://github.com/user-attachments/assets/ed9019e8-4cfb-4cbd-8322-581e81da3238)<h1>Create</h1>
 <div>
   딥트러플머쉬룸더블버거 추가하기! <br>
   url: http://localhost:8080/burgerking
 </div>
 
-![image](https://github.com/user-attachments/assets/5b13943d-4d62-4831-82f7-154272efb62c)
+![image](https://github.com/user-attachments/assets/d0d689a2-f3fc-40cd-828c-59f4f0516347)
 
-![image](https://github.com/user-attachments/assets/c370b661-96f3-4dab-a65d-1fa80f137251)
+![image](https://github.com/user-attachments/assets/96ea4608-d4ab-436c-a668-b273bf666963)
 
 <h1>Read</h1>
 <div>
@@ -15,38 +15,37 @@
   2) 가격으로 치즈버거 userId찾기 <br>
   url: http://localhost:8080/burgerking/userPrice?price=2000원<br>
   3) userId로 메뉴찾기<br>
-  url: http://localhost:8080/burgerking/53<br>
+  url: http://localhost:8080/burgerking/154<br>
   4) 가격 낮은 순서대로 각 항목의 모든 정보 보여주기<br>
   url: http://localhost:8080/burgerking/priceAsc<br>
 </div>
 
-![image](https://github.com/user-attachments/assets/f61acfe0-8e6a-4b65-8458-66faa9a5b41f)
+![image](https://github.com/user-attachments/assets/0247b940-e1e2-4485-856e-f0a9c52d13f9)
 
-![image](https://github.com/user-attachments/assets/43d6a183-d6df-4e14-8a72-1776a99fe3af)
+![image](https://github.com/user-attachments/assets/8051f9f3-71d8-429b-a944-e50bb75bda42)
 
-![image](https://github.com/user-attachments/assets/a532164c-eb7a-4f8e-9c2e-b0a1d5ff7daa)
+![image](https://github.com/user-attachments/assets/6492c9fb-8eff-4932-9e1e-ee6783c572ef)
 
-![image](https://github.com/user-attachments/assets/8ee807d9-e2fa-47a1-a502-73140ca5c000)
+![image](https://github.com/user-attachments/assets/95f9a5bd-c3a9-461e-bc45-72c2d692f34f)
 
 <h1>Update</h1>
 <div>
   1) 치즈버거를 치즈버거세트로, 가격 바꿈 & 바뀐거 확인<br>
-  url: http://localhost:8080/burgerking/53<br>
+  url: http://localhost:8080/burgerking/154<br>
 </div>
 
-![image](https://github.com/user-attachments/assets/ab8d9c7a-7558-4d1e-b69a-c700ebbe4da4)
+![image](https://github.com/user-attachments/assets/a5ccc273-7da6-44e7-b68c-0ef151c34e84)
 
-![image](https://github.com/user-attachments/assets/143b7ffd-ca22-48bb-abfb-fce233ada58b)
+![image](https://github.com/user-attachments/assets/f66ddd19-3b24-47af-a150-f77eda0eb35d)
 
 <h1>Delete</h1>
 <div>
-  url: http://localhost:8080/phone/1   (1번사진이 delete한거, 2번사진이 사라진지 get해서 확인해본거)
+  url: http://localhost:8080/burgerking/154 (1번사진이 delete한거, 2번사진이 사라진지 get해서 확인해본거)
 </div>
 
-![image](https://github.com/user-attachments/assets/d90abffd-5c2b-49a1-8f96-b0252ac20fbb)
+![image](https://github.com/user-attachments/assets/1e1152e5-a0b2-4788-91f6-cb10368e8b5b)
 
-![image](https://github.com/user-attachments/assets/f758adda-688b-45d8-b4d9-7ba4bf04ac7d)
-
+![image](https://github.com/user-attachments/assets/d73513e1-ade6-4c5c-b26d-21ef4de27b68)
 
 
 
