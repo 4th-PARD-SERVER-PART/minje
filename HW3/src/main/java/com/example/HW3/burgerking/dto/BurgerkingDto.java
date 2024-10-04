@@ -9,5 +9,5 @@ import lombok.*;
 @Builder
 public class BurgerkingDto {
     private String name;
-    private String price;
+    private Long price;
 }

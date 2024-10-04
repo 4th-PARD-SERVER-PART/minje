@@ -43,7 +43,7 @@ public class BurgerkingController {
 
     @GetMapping("/priceAsc")
     public List<Burgerking> getProducts() {
-        return burgerkingService.getAllProductsOrderedByPrice();
+        return burgerkingService.getAllOrderedByPrice();
     }
     @GetMapping("/userName")
     public ResponseEntity<Long> findIdByName(@RequestParam String name){
@@ -51,8 +51,8 @@ public class BurgerkingController {
         return new ResponseEntity<>(responseValue, HttpStatus.OK);
     }
     @GetMapping("/userPrice")
-    public ResponseEntity<Long> findIdByPrice(@RequestParam String price){
-        Long responseValue = burgerkingService.findIdByName(price);
+    public ResponseEntity<Long> findIdByPrice(@RequestParam Long price){
+        Long responseValue = burgerkingService.findIdByPrice(price);
         return new ResponseEntity<>(responseValue, HttpStatus.OK);
     }
 

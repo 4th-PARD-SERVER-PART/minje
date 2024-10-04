@@ -8,7 +8,7 @@ import java.util.List;
 
 @Repository
 public interface BurgerkingRepository extends JpaRepository<Burgerking, Long> {
-    public Burgerking findByPrice(String price);
+    public Burgerking findByPrice(Long price);
     public Burgerking findByName(String name);
     List<Burgerking> findAllByOrderByPriceAsc();
 }

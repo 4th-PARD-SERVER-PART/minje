@@ -24,7 +24,7 @@ public class Burgerking {
     private String name;
 
     @Column(name = "price")
-    private String price;
+    private Long price;
 
     @CreationTimestamp
     private Timestamp userSignupTime;

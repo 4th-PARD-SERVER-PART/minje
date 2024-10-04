@@ -53,7 +53,7 @@ public class BurgerkingService {
         burgerkingRepository.deleteById(userId);
     }
 
-    public List<Burgerking> getAllProductsOrderedByPrice() {
+    public List<Burgerking> getAllOrderedByPrice() {
         return burgerkingRepository.findAllByOrderByPriceAsc();
     }
 
@@ -62,7 +62,7 @@ public class BurgerkingService {
         return burgerking.getUserId();
     }
 
-    public Long findIdByPrice(String price){
+    public Long findIdByPrice(Long price){
         Burgerking burgerking = burgerkingRepository.findByPrice(price);
         return burgerking.getUserId();
     }
