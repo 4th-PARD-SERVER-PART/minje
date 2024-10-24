@@ -22,9 +22,9 @@ public class PostResponse {
         public static List<PostReadResponse> postToDto(List<Post> posts){
             List<PostReadResponse> ret = new ArrayList<>();
             for(Post post : posts){
-                PostReadResponse b =
+                PostReadResponse p =
                         new PostReadResponse(post.getId(), post.getTitle(), post.getContent());
-                ret.add(b);
+                ret.add(p);
             }
             return ret;
         }

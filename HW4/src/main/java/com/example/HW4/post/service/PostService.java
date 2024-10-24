@@ -26,7 +26,7 @@ public class PostService {
 
     public PostResponse.PostReadResponse readPost(Long postId){
         Optional<Post> b = postRepository.findById(postId);
-        Post tbpost = b.get();
-        return new PostResponse.PostReadResponse(postId, tbpost.getTitle(), tbpost.getContent());
+        Post post = b.get();
+        return new PostResponse.PostReadResponse(postId, post.getTitle(), post.getContent());
     }
 }

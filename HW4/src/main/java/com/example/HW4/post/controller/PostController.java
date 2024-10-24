@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 public class PostController {
     private final PostService postService;
 
-    @PostMapping("")
+    @PostMapping("/{userId}")
     public void CreatePost(@PathVariable Long userId, @RequestBody PostRequest.PostCreateRequest req){
         postService.createPost(userId, req);
     }
